@@ -130,7 +130,7 @@ section#hero {
 }
 
 /* About */
-.about-page h2 {
+.about-page{
   color: #fff;
   text-align: center;
 }
