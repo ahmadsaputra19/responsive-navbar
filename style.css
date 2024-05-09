@@ -129,7 +129,11 @@ section#hero {
   margin-bottom: 1rem;
 }
 
+
 /* About */
+section#about {
+  margin-top: 30px;
+}
 .about-page {
   color: #fff;
   text-align: center;
