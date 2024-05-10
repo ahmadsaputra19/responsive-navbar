@@ -10,3 +10,11 @@ toggleBtn.onclick = function () {
     ? 'fa-solid fa-xmark' //class toggle yang ada di index.html
     : 'fa-solid fa-bars' //class toggle yang ada di index.html
 };
+
+// menghilangkan hamburger menu
+
+document.addEventListener('click', function(e){
+    if(!toggleBtn.contains(e.target) && !dropDownMenu.contains(e.target)){
+        dropDownMenu.classList.remove('open')
+    };
+})
